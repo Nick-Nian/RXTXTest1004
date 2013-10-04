@@ -1,0 +1,7 @@
+in Windows
+javac -classpath .;RXTXcomm.jar RXTXTest.java
+java -classpath RXTXcomm.jar; -Djava.library.path=. RXTXTest
+
+in Ubuntu
+javac -classpath .:RXTXcomm.jar RXTXTest.java
+java -classpath RXTXcomm.jar: -Djava.library.path=. RXTXTest
